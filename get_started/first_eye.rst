@@ -102,9 +102,9 @@ Nano 手册资料
 
 国内下载： 
 
-    Nano 数据手册: http://odfef978i.bkt.clouddn.com/Nano%20F600%20User%20Manual.pdf
+    Nano 数据手册: https://fdvad021asfd8q.oss-cn-hangzhou.aliyuncs.com/migrate/Nano%20F600%20User%20Manual.pdf
 
-    原理图： http://odfef978i.bkt.clouddn.com/Lichee_nano.pdf
+    原理图： https://fdvad021asfd8q.oss-cn-hangzhou.aliyuncs.com/migrate/Lichee_nano.pdf
 
     百度云盘资料包： https://pan.baidu.com/s/1smzuGS9
 
@@ -119,13 +119,13 @@ Nano 的管脚定义，可由下图简略说明：
    - 靠近 2.54mm 插针的两排，列出了其引脚功能与常见复用
    - 中间两排，分别对应着两边 1.27mm 邮票空插针的引脚功能
 
-.. figure:: http://odfef978i.bkt.clouddn.com/Pin%20Map.png
+.. figure:: https://fdvad021asfd8q.oss-cn-hangzhou.aliyuncs.com/migrate/Pin%20Map.png
    :width: 500px
    :align: center
   
    Pin Map
 
-具体的引脚定义与可用重映射信息，还请参阅 `原理图 <http://odfef978i.bkt.clouddn.com/Lichee_nano.pdf>`_
+具体的引脚定义与可用重映射信息，还请参阅 `原理图 <https://fdvad021asfd8q.oss-cn-hangzhou.aliyuncs.com/migrate/Lichee_nano.pdf>`_
 
 说点软的
 ------------------------
@@ -174,4 +174,4 @@ Nano 的管脚定义，可由下图简略说明：
 - 随机附带了一小张二维码贴纸，扫一扫即可进入本文档中心 http://nano.lichee.pro ，您可将其贴于盒子表面或方便之处
 - 如果您有什么疑问，请先翻阅一下对应文档下方的评论区，再联系我们或在评论区下记录您的疑惑，然后等待我们的回复；之后我们也会挑选出具有代表性的问题，在下一节汇总撰写这些问题的解决方法
 
-如果收到板子后还有其他疑问，请在 **官方交流QQ群：826307240** 或 `荔枝派BBS <http://bbs.lichee.pro>`_ 求助吐槽 ,在 `荔枝派Telegram电报群 <https://t.me/joinchat/HH5CKkoLTnnxtdIl2U1Psg>`_ 讨论技术与获取资讯，感谢。
+如果收到板子后还有其他疑问，请在 **官方交流QQ群：826307240** 或 `荔枝派BBS <http://bbs.lichee.pro>`_ 求助吐槽 ,在 `荔枝派Telegram电报群 <https://t.me/sipeed>`_ 讨论技术与获取资讯，感谢。

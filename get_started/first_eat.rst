@@ -398,4 +398,4 @@ PC操作系统         Linux/MacOS
 
 荔枝派3000人QQ交流大群：826307240
 
-荔枝派Telegram电报群：`Lichee Pi <https://t.me/joinchat/HH5CKkoLTnnxtdIl2U1Psg>`_
+荔枝派Telegram电报群：`Lichee Pi <https://t.me/sipeed>`_

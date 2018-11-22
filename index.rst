@@ -3,13 +3,13 @@
 
 荔枝派 Nano，开启你的极客之心。这是一款仅有2.54cm X 3.3cm大小的精致小板，相当于一张SD卡大小，只要您愿意，即可将一颗极客芯随身携带。
 
-.. figure:: http://odfef978i.bkt.clouddn.com/DSC_0455.png
+.. figure:: https://fdvad021asfd8q.oss-cn-hangzhou.aliyuncs.com/migrate/DSC_0455.png
   :width: 500px
   :align: center
 
   实物图
 
-.. figure:: http://odfef978i.bkt.clouddn.com/DSC_0459-min%20%281%29.JPG
+.. figure:: https://fdvad021asfd8q.oss-cn-hangzhou.aliyuncs.com/migrate/DSC_0459-min%20(1).JPG
   :width: 500px
   :align: center
 
@@ -43,7 +43,7 @@
 荔枝派 Nano 延续了前一代的巧妙设计，2.54mm普通插针焊孔+1.27mm邮票孔贴片设计，方便您自己动手DIY的同时，也支持贴片生产，制作更为复杂的应用。
 
 
-.. figure:: http://odfef978i.bkt.clouddn.com/Pin%20Map.png
+.. figure:: https://fdvad021asfd8q.oss-cn-hangzhou.aliyuncs.com/migrate/Pin%20Map.png
   :width: 500px
   :align: center
 
@@ -51,7 +51,7 @@
 
 此外，荔枝派自从初代One以来，不断适配外设，已有TF-Wifi、RGB to VGA、40 pin RGB、 LCD、RGB to GPIO、Camera等经过广泛实践验证过的成熟模块。
 
-.. figure:: http://odfef978i.bkt.clouddn.com/module.png
+.. figure:: https://fdvad021asfd8q.oss-cn-hangzhou.aliyuncs.com/migrate/module.png
   :width: 500px
   :align: center
 
@@ -71,7 +71,7 @@
 
 欢迎各位加入 `荔枝派交流群826307240 <https://jq.qq.com/?_wv=1027&k=52cCEVU>`_ | `荔枝派Telegram电报群 <https://t.me/sipeed>`_ | `荔枝派社区 <http://bbs.lichee.pro>`_。
 
-.. figure:: http://odfef978i.bkt.clouddn.com/QQ_Group_2.jpg
+.. figure:: https://fdvad021asfd8q.oss-cn-hangzhou.aliyuncs.com/migrate/QQ_Group_2.jpg
    :width: 250px
    :align: center
 
