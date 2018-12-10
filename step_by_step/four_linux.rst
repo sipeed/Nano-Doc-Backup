@@ -26,3 +26,9 @@
 - 编译
 
   ``make ARCH=arm``
+
+- 系统默认的账号密码
+
+  账号：root
+
+  密码：licheepi
