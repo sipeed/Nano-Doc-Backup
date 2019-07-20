@@ -136,7 +136,11 @@ dts 修改
     // 修改为 （不使用sector，使用块擦除）：
     { "w25q128", INFO(0xef4018, 0, 64 * 1024, 256, 0) },
 
-内核需要开启 mtdblock 的支持，暂时的解决方法是直接修改 .config 中的内容
+**检查 SPI 驱动是否正确**
+
+进入 Device Drivers ‣ SPI support，将 Allwinner A10 SoCs SPI controller 取消勾选，然后勾上下面的 Allwinner A31 SPI Controller
+
+内核需要开启 **mtdblock** 的支持，暂时的解决方法是直接修改 .config 中的内容
 
 .. code-block:: c
 
