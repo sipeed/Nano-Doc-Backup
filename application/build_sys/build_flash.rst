@@ -140,11 +140,14 @@ dts 修改
 
 进入 Device Drivers ‣ SPI support，将 Allwinner A10 SoCs SPI controller 取消勾选，然后勾上下面的 Allwinner A31 SPI Controller
 
-内核需要开启 **mtdblock** 的支持，暂时的解决方法是直接修改 .config 中的内容
+内核需要开启 **mtdblock** 的支持，device drivers ‣ Memory Technology Device (MTD) support ‣ Caching block device access to MTD devices
 
-.. code-block:: c
+关闭 **initramfs/initrd** 的支持
 
-    CONFIG_MTD_BLOCK=y
+::
+
+    General setup --->
+    [ ] Initial RAM filesystem and RAM disk (initramfs/initrd) support
 
 二进制bin 打包
 -------------------------------------
