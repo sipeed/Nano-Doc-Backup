@@ -34,15 +34,14 @@ uboot 修改
 bootcmd修改
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-在uboot源码目录下 进入 ./include/configs/
+``make ARCH=arm menuconfig``，进入 uboot 源码一级目录，勾选 Enable a default value for bootcmd ，并填入下方 bootcmd 的参数
 
-.. code-block:: c
-   :caption: 修改 *suniv.h*
+:: 
 
-    #define CONFIG_BOOTCOMMAND   "sf probe 0; "                           \    
-                                "sf read 0x80C00000 0x100000 0x4000; "  \
-                                "sf read 0x80008000 0x110000 0x400000; " \
-                                "bootz 0x80008000 - 0x80C00000"
+   sf probe 0 50000000; \
+   sf read 0x80C00000 0x100000 0x4000; \
+   sf read 0x80008000 0x110000 0x400000; \
+   bootz 0x80008000 - 0x80C00000
 
 按照行数解释如下：
 
@@ -50,10 +49,6 @@ bootcmd修改
     2. 读取 spi-flash 1M（0x100000）位置 16KB(0x4000)大小的 dtb 到地址 0x80C00000
     3. 读取 spi-flash 1M+64K（0x110000）位置 4MB (0x400000)大小的 zImage 到地址 0x80008000
     4. 从 0x80008000 启动内核，从 0x80C00000 读取设备树配置
-
-回到 uboot 源码一级目录，``make ARCH=arm menuconfig`` 进入TUI配置；
-
-取消勾选 *[ ] Enable a default value for bootcmd*
 
 bootargs修改
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
